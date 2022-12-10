@@ -34,7 +34,7 @@ void main()
 	if(workstep[0]==0)
 	{
 		printf("未输入任何作业，系统将退出！\n");
-		return 0;
+		return;
 	}
 	printf("置换情况如下：\n");
 	for(int k=0;k<worknum;k++)
